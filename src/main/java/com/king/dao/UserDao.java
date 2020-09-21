@@ -3,7 +3,7 @@ package com.king.dao;
 import com.king.model.UserModel;
 
 import java.util.List;
-
+//UserDao
 public interface UserDao {
     List<UserModel> getAllUsers();
     UserModel getUser(String id);
